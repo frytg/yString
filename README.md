@@ -1,8 +1,8 @@
 # yString
 
-![LICENSE](https://img.shields.io/npm/l/ystring.svg)
-![SIZE](https://img.shields.io/bundlephobia/min/ystring.svg)
-![VERSION](https://img.shields.io/npm/v/ystring.svg)
+[![LICENSE](https://img.shields.io/npm/l/ystring.svg)](https://github.com/frytg/yString/)
+[![SIZE](https://img.shields.io/bundlephobia/min/ystring.svg)](https://www.npmjs.com/package/ystring)
+[![VERSION](https://img.shields.io/npm/v/ystring.svg)](https://www.npmjs.com/package/ystring)
 
 
 ### Available methods:
