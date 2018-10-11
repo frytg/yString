@@ -15,7 +15,7 @@
 */
 
 const yString = {
-	removeNonWord: function(str){
+	onlyWords: function(str){
 		return str.replace(/[^0-9a-zA-Z\xC0-\xFF \-]/g, '');
 	},
 
@@ -28,7 +28,7 @@ const yString = {
 	},
 
 	camelCase: function(str){
-		str = helpers.removeNonWord(str)
+		str = helpers.onlyWords(str)
 			.replace(/\-/g, ' ') //convert all hyphens to spaces
 			.replace(/\s[a-z]/g, helpers.upperCase) //convert first char of each word to UPPERCASE
 			.replace(/\s+/g, '') //remove spaces

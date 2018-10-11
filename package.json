@@ -1,6 +1,6 @@
 {
   "name": "ystring",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "String helpers for NodeJS",
   "main": "index.js",
   "repository": {

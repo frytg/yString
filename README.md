@@ -6,7 +6,7 @@
 
 
 ### Available methods:
-- `removeNonWord` _(added 0.9.0)_
+- `onlyWords` _(updated 0.9.2)_
 - `lowerCase` _(added 0.9.0)_
 - `upperCase` _(added 0.9.0)_
 - `camelCase` _(added 0.9.0)_
