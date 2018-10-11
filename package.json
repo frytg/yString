@@ -1,0 +1,16 @@
+{
+  "name": "ystring",
+  "version": "0.9.0",
+  "description": "String helpers for NodeJS",
+  "main": "index.js",
+  "repository": {
+  "type": "git",
+	  "url": "https://github.com/frytg/yString.git"
+  },
+  "homepage": "https://github.com/frytg/yString/",
+
+  "author": "Daniel Freytag <help@frytg.com>",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
