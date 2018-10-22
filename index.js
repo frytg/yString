@@ -16,18 +16,26 @@
 
 const yString = {
 	onlyWords: function(str) {
+		if(str == null) { return str; }
+
 		return str.replace(/[^0-9a-zA-Z\xC0-\xFF \-]/g, '');
 	},
 
 	lowerCase: function(str) {
+		if(str == null) { return str; }
+
 		return str.toLowerCase();
 	},
 
 	upperCase: function(str) {
+		if(str == null) { return str; }
+
 		return str.toUpperCase();
 	},
 
 	camelCase: function(str) {
+		if(str == null) { return str; }
+
 		str = yString.onlyWords(str);
 		str = yString.lowerCase(str)
 			.replace(/\-/g, ' ') //convert all hyphens to spaces
@@ -38,14 +46,20 @@ const yString = {
 	},
 
 	stripWhitespace: function(str) {
+		if(str == null) { return str; }
+
 		return str.replace(/\s+/g, '');
 	},
 
 	lc: function(str) {
+		if(str == null) { return str; }
+
 		return yString.lowerCase(str);
 	},
 
 	uc: function(str) {
+		if(str == null) { return str; }
+		
 		return yString.upperCase(str);
 	}
 };
